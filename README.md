@@ -45,7 +45,7 @@ const wbout = XLSX.write(wb, wopts);
 saveAs(new Blob([s2ab(wbout)]), fileName); // 保存为文件
 ```
 
-[戳我看demo]()<br>
+[戳我看demo](http://mvpzx.top/fe-export-xlsx/index.html)<br>
 
 ## 混合开发中的实现方式
 以`ionic`框架为例。
